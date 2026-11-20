@@ -1,0 +1,17 @@
+{
+  "name": "fluentbooking-graphics",
+  "owner": {
+    "name": "Nazimel"
+  },
+  "metadata": {
+    "description": "FluentBooking marketing graphics in the website illustration style, packaged for the team.",
+    "version": "0.4.1"
+  },
+  "plugins": [
+    {
+      "name": "fluentbooking-graphics",
+      "description": "Design FluentBooking marketing graphics in the brand's website illustration style, fact-checked against the FluentBooking product brain and render-checked before delivery. Draft design system.",
+      "source": "./"
+    }
+  ]
+}

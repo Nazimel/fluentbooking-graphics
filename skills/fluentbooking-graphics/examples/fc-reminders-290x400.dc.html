@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reminders, feature card 290×400</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Jost:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 290px; height: 400px; position: relative; overflow: hidden; border-radius: 28px; background: {{ground}}; font-family: 'Jost', 'Inter', system-ui, sans-serif; color: #1D2432">
+<div data-deco="1" style="position: absolute; left: 60px; top: 120px; width: 360px; height: 360px; background: radial-gradient(closest-side, #DBE9FC 0%, #DBE9FC 50%, transparent 100%);"></div><div style="position: absolute; left: 45px; top: 58px; width: 200px; height: 420px; z-index: 1; box-sizing: border-box; background: #14203F; border-radius: 28px; padding: 6px; box-shadow: 0 18px 40px rgba(27,72,188,0.20); font-family: 'Jost', 'Inter', system-ui, sans-serif"><div style="height: 100%; border-radius: 22px; background: #FFFFFF; overflow: hidden; display: flex; flex-direction: column"><div style="display: flex; justify-content: center; padding-top: 6px"><span style="width: 50px; height: 13px; border-radius: 99px; background: #14203F"></span></div><div style="display: flex; align-items: center; gap: 7px; padding: 8px 10px; background: #FFFFFF; border-bottom: 1px solid #E5E7EB"><span style="width: 24px; height: 24px; flex-shrink: 0; border-radius: 999px; background: #2F5D50; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Jost', 'Inter', system-ui, sans-serif; font-size: 9px; font-weight: 600">S</span><span style="flex: 1; font-size: 10.8px; font-weight: 600; color: #1D2432">Stillpoint Yoga</span><span style="font-family: 'Jost', 'Inter', system-ui, sans-serif; font-size: 8px; font-weight: 600; color: #1B48BC; background: #DBE9FC; padding: 3px 9px; border-radius: 999px; white-space: nowrap; line-height: 1.3">SMS</span></div><div style="flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 10px 9px"><span style="align-self: center; font-size: 8.2px; color: #8E96A8; margin: 3px 0">Today 7:30 AM</span><div style="align-self: flex-start; max-width: 86%; background: #F4F5F7; border-radius: 12px 12px 12px 3px; padding: 8px 9px; font-size: 9.5px; line-height: 1.45; color: #1D2432; box-shadow: 0 1px 2px rgba(0,0,0,0.06)">Hi Lena, your Morning Flow Class with Maya starts in 1 hour.</div><div style="align-self: flex-start; max-width: 86%; background: #F4F5F7; border-radius: 12px 12px 12px 3px; padding: 8px 9px; font-size: 9.5px; line-height: 1.45; color: #1D2432; box-shadow: 0 1px 2px rgba(0,0,0,0.06)">Need a different time? Reschedule here: <span style="color: #1B48BC">stillpoint.yoga/r/8K2</span></div></div></div></div><div style="position: absolute; left: 18px; top: 270px; width: 254px; z-index: 3; box-sizing: border-box; background: #FFFFFF; border: 2px solid #4587EC; border-radius: 14px; padding: 13px 14px; box-shadow: 0 18px 40px rgba(27,72,188,0.20); overflow: hidden; font-family: 'Jost', 'Inter', system-ui, sans-serif; color: #1D2432"><div style="display: flex; gap: 11px; align-items: flex-start"><span style="width: 37px; height: 37px; flex-shrink: 0; border-radius: 999px; background: #B1FDEB; color: #0E4F43; display: flex; align-items: center; justify-content: center; font-family: 'Jost', 'Inter', system-ui, sans-serif; font-size: 13px; font-weight: 600">LP</span><div style="display: flex; flex-direction: column; gap: 6px; min-width: 0"><span style="font-size: 12.0px; font-weight: 600; line-height: 1.25">Reminder: Morning Flow Class starts in 1 hour</span><span style="font-size: 10.4px; font-weight: 600; margin-top: 2px">When</span><span style="font-size: 9.2px; color: #5B6478; line-height: 1.4">Tue, October 3, 8:30 AM (Asia/Dhaka)</span></div></div></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ground":{"editor":"color","default":"#FFFCE1","options":["#E1F1FF","#FFE8E1","#E9FFE1","#FFFCE1","#E1FFF8"]},"$preview":{"width":290,"height":400}}'>
+class Component extends DCLogic {
+renderVals() { return { ground: this.props.ground ?? '#FFFCE1' }; }
+}
+</script>
+</body>
+</html>

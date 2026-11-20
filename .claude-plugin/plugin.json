@@ -1,0 +1,9 @@
+{
+  "name": "fluentbooking-graphics",
+  "version": "0.4.1",
+  "description": "Design FluentBooking marketing graphics (hero images, feature cards, blog covers, social visuals) in the brand's website illustration style, fact-checked against the FluentBooking product brain and render-checked before delivery. Draft design system.",
+  "author": {
+    "name": "Nazir, Fluent Marketing"
+  },
+  "keywords": ["fluentbooking", "design", "graphics", "brand", "illustration", "scheduling"]
+}
